@@ -1,0 +1,70 @@
+body {
+  background-color: peru;
+}
+h1 {
+  color: white;
+  text-align: center;
+}
+ul {
+  list-style: none;
+  color: white;
+}
+span{
+  font-weight: bold;
+  font-style: italic;
+  font-size: 60px;
+  padding-right: 5%;
+}
+p{
+  color: white;
+}
+.js-clock {
+  color: white;
+}
+.js-clock h1 {
+  font-size: 100px;
+}
+.btn {
+  cursor: pointer;
+}
+.delBtn{
+  font-size: 40px;
+}
+.clicked {
+  color: black;
+}
+.js-weather {
+  text-align: right;
+  font-size: 40px;
+  color: white;
+}
+.form {
+  color: black;
+  display: none;
+  font-size: 20px;
+}
+.greeting {
+  color: white;
+  display: none;
+  font-size: 50px;
+}
+.showing {
+  display: block;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.bgImage {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  animation: fadeIn 0.5s linear;
+}
